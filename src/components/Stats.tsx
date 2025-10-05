@@ -45,26 +45,7 @@ export function Stats() {
   ];
 
   const achievements = [
-    {
-      title: "ISO 27001 인증",
-      description: "국제 정보보안 관리 표준 인증 획득",
-      icon: "🏆"
-    },
-    {
-      title: "GDPR 완전 준수",
-      description: "유럽 개인정보보호법 완전 준수",
-      icon: "✅"
-    },
-    {
-      title: "FDA 파트너십",
-      description: "미국 식품의약국과 협력 프로그램",
-      icon: "🤝"
-    },
-    {
-      title: "블록체인 어워드",
-      description: "2024 최우수 헬스케어 블록체인",
-      icon: "🥇"
-    }
+    // 검증된 인증/수상 내역만 표시
   ];
 
   return (
@@ -123,25 +104,27 @@ export function Stats() {
           ))}
         </div>
 
-        {/* Achievements */}
-        <div className="bg-card border border-border rounded-3xl p-8 shadow-lg">
-          <h3 className="text-2xl font-bold text-center mb-8">인증 및 수상 내역</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center group">
-                <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300">
-                  {achievement.icon}
+        {/* Achievements - 검증된 내역만 표시 */}
+        {achievements.length > 0 && (
+          <div className="bg-card border border-border rounded-3xl p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-center mb-8">인증 및 수상 내역</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {achievements.map((achievement, index) => (
+                <div key={index} className="text-center group">
+                  <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300">
+                    {achievement.icon}
+                  </div>
+                  <div className="text-lg font-bold mb-2 text-foreground group-hover:text-primary transition-colors">
+                    {achievement.title}
+                  </div>
+                  <div className="text-muted-foreground text-sm">
+                    {achievement.description}
+                  </div>
                 </div>
-                <div className="text-lg font-bold mb-2 text-foreground group-hover:text-primary transition-colors">
-                  {achievement.title}
-                </div>
-                <div className="text-muted-foreground text-sm">
-                  {achievement.description}
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Real-time Updates */}
         <div className="mt-16">

@@ -19,7 +19,7 @@ export function Technology() {
         "완전한 개인정보 보호",
         "데이터 유효성 증명",
         "수학적 보안 보장",
-        "GDPR 완전 준수"
+        "글로벌 개인정보보호 기준 준수"
       ],
       icon: "🔐",
       color: "from-purple-500/10 to-purple-600/10 border-purple-500/20"

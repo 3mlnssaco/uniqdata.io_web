@@ -68,49 +68,14 @@ export function CTA() {
           {/* Contact Info */}
           <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-3xl p-8 border border-primary-foreground/20">
             <h3 className="text-2xl font-bold mb-6">문의하기</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="text-center md:text-left">
-                <h4 className="font-semibold mb-2">비즈니스 문의</h4>
-                <p className="text-primary-foreground/80 text-sm mb-1">
-                  📧 business@uniqdata.io
-                </p>
-                <p className="text-primary-foreground/80 text-sm">
-                  📞 +82-2-1234-5678
-                </p>
-              </div>
-              <div className="text-center md:text-right">
-                <h4 className="font-semibold mb-2">기술 지원</h4>
-                <p className="text-primary-foreground/80 text-sm mb-1">
-                  📧 support@uniqdata.io
-                </p>
-                <p className="text-primary-foreground/80 text-sm">
-                  💬 24/7 라이브 채팅
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-6 pt-6 border-t border-primary-foreground/20">
+            <div className="text-center">
               <p className="text-primary-foreground/80 text-sm">
-                궁금한 점이 있으시면 언제든지 연락해주세요. 전문 상담사가 도와드립니다.
+                비즈니스 문의 및 기술 지원이 필요하신가요?
+              </p>
+              <p className="text-primary-foreground/90 font-semibold mt-4">
+                📧 문의: contact@uniqdata.io
               </p>
             </div>
-          </div>
-
-          {/* Social Proof */}
-          <div className="mt-16">
-            <p className="text-primary-foreground/80 text-sm mb-4">
-              이미 50,000명이 UniqData와 함께하고 있습니다
-            </p>
-            <div className="flex justify-center items-center gap-8 opacity-60">
-              <div className="text-2xl">🏥</div>
-              <div className="text-2xl">🔬</div>
-              <div className="text-2xl">💊</div>
-              <div className="text-2xl">🏛️</div>
-              <div className="text-2xl">🎓</div>
-            </div>
-            <p className="text-primary-foreground/60 text-xs mt-2">
-              주요 의료기관, 연구소, 제약회사, 정부기관, 대학교
-            </p>
           </div>
         </div>
       </div>
