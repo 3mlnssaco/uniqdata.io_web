@@ -10,7 +10,7 @@ export function Hero() {
           </div>
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 animate-fade-in">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
             당신의 건강데이터가
             <br />
             <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
@@ -19,18 +19,16 @@ export function Hero() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed max-w-4xl mx-auto animate-fade-in">
-            UniqData는 XRPL 블록체인과 영지식 증명 기술을 활용하여
-            <br />
-            개인의 건강데이터를 안전하게 보호하면서 수익화할 수 있는 혁신적인 플랫폼입니다
+          <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-10 leading-relaxed max-w-4xl mx-auto animate-fade-in px-4">
+            XRPL 블록체인과 영지식 증명 기술로 건강데이터를 안전하게 수익화
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-slide-up">
-            <button className="bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12 animate-slide-up px-4">
+            <button className="bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
               플랫폼 시작하기 →
             </button>
-            <button className="border border-border text-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-secondary hover:scale-105 transition-all duration-300">
+            <button className="border border-border text-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-secondary hover:scale-105 transition-all duration-300 w-full sm:w-auto">
               데모 보기
             </button>
           </div>
