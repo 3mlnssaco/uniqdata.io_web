@@ -44,7 +44,11 @@ export function Stats() {
     }
   ];
 
-  const achievements = [
+  const achievements: Array<{
+    title: string;
+    description: string;
+    icon: string;
+  }> = [
     // 검증된 인증/수상 내역만 표시
   ];
 
