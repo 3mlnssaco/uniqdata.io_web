@@ -24,14 +24,25 @@ export function CTA() {
               글로벌 마켓플레이스에서 수익을 창출해보세요
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <button className="bg-primary-foreground text-primary px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300">
-                무료로 시작하기 →
+            <form
+              action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST"
+              className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+            >
+              <input
+                type="email"
+                name="email"
+                placeholder="이메일 주소를 입력하세요"
+                required
+                className="px-6 py-4 rounded-full text-lg bg-primary-foreground/10 border-2 border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/60 focus:outline-none focus:border-primary-foreground/50 w-full sm:w-auto sm:min-w-[300px]"
+              />
+              <button
+                type="submit"
+                className="bg-primary-foreground text-primary px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300"
+              >
+                소식 받기 →
               </button>
-              <button className="border-2 border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-foreground/10 hover:scale-105 transition-all duration-300">
-                소식 받기 📬
-              </button>
-            </div>
+            </form>
 
             <p className="text-primary-foreground/80 text-sm">
               ✨ 가입비 무료 • 첫 거래 수수료 면제 • 24/7 고객지원

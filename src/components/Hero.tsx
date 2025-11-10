@@ -26,7 +26,7 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12 animate-slide-up px-4">
             <button className="bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
-              플랫폼 시작하기 →
+              문의하기 →
             </button>
             <button className="border border-border text-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-secondary hover:scale-105 transition-all duration-300 w-full sm:w-auto">
               데모 보기
