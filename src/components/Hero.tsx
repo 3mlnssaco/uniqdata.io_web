@@ -42,7 +42,7 @@ export function Hero() {
               type="submit"
               className="bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto"
             >
-              시작하기 →
+              소식 받기 →
             </button>
           </form>
 
