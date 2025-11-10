@@ -53,7 +53,7 @@ export function Technology() {
   const specs = [
     { label: "거래 처리 속도", value: "3-5초", icon: "⚡" },
     { label: "거래 수수료", value: "0.0001 XRP", icon: "💰" },
-    { label: "데이터 보안 수준", value: "군사급 암호화", icon: "🛡️" },
+    { label: "데이터 보안 수준", value: "엔터프라이즈급 보안", icon: "🛡️" },
     { label: "가동률", value: "99.99%", icon: "📊" },
     { label: "지원 데이터 형식", value: "100+ 형식", icon: "📁" },
     { label: "동시 처리 용량", value: "100,000 TPS", icon: "🚀" }
