@@ -23,15 +23,28 @@ export function Hero() {
             XRPL 블록체인과 영지식 증명 기술로 건강데이터를 안전하게 수익화
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12 animate-slide-up px-4">
-            <button className="bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
-              문의하기 →
+          {/* CTA Form */}
+          <form
+            action="https://formspree.io/f/mvgdpjaz"
+            method="POST"
+            className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12 animate-slide-up px-4"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="이메일을 입력하세요"
+              required
+              className="px-6 py-3 rounded-full text-base bg-card border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary w-full sm:w-auto sm:min-w-[250px]"
+            />
+            <input type="hidden" name="source" value="UniqData Hero Section" />
+            <input type="hidden" name="_subject" value="UniqData 온보딩 요청" />
+            <button
+              type="submit"
+              className="bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto"
+            >
+              시작하기 →
             </button>
-            <button className="border border-border text-foreground px-6 py-3 rounded-full text-base font-semibold hover:bg-secondary hover:scale-105 transition-all duration-300 w-full sm:w-auto">
-              데모 보기
-            </button>
-          </div>
+          </form>
 
           {/* Hero Visual */}
           <div className="relative">
