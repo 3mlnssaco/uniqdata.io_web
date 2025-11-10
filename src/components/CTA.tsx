@@ -25,7 +25,7 @@ export function CTA() {
             </p>
 
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
+              action="https://formspree.io/f/mvgdpjaz"
               method="POST"
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
             >
@@ -36,6 +36,8 @@ export function CTA() {
                 required
                 className="px-6 py-4 rounded-full text-lg bg-primary-foreground/10 border-2 border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/60 focus:outline-none focus:border-primary-foreground/50 w-full sm:w-auto sm:min-w-[300px]"
               />
+              <input type="hidden" name="source" value="UniqData Landing Page" />
+              <input type="hidden" name="_subject" value="UniqData 뉴스레터 구독 신청" />
               <button
                 type="submit"
                 className="bg-primary-foreground text-primary px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300"
