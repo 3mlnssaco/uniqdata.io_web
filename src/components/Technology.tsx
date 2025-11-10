@@ -54,8 +54,6 @@ export function Technology() {
     { label: "거래 처리 속도", value: "3-5초", icon: "⚡" },
     { label: "거래 수수료", value: "0.0001 XRP", icon: "💰" },
     { label: "데이터 보안 수준", value: "엔터프라이즈급 보안", icon: "🛡️" },
-    { label: "가동률", value: "99.99%", icon: "📊" },
-    { label: "지원 데이터 형식", value: "100+ 형식", icon: "📁" },
     { label: "동시 처리 용량", value: "100,000 TPS", icon: "🚀" }
   ];
 
@@ -75,8 +73,9 @@ export function Technology() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            검증된 블록체인 기술과 최신 암호학, AI를 결합하여
-            데이터의 보안과 가치를 동시에 보장하는 혁신적인 플랫폼입니다
+            검증된 블록체인 기술과 AI를 결합하여
+            <br />
+            데이터의 보안과 가치를 동시에 보장
           </p>
         </div>
 
@@ -131,58 +130,6 @@ export function Technology() {
           </div>
         </div>
 
-        {/* Architecture Diagram */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8">시스템 아키텍처</h3>
-          <div className="bg-gradient-to-br from-card to-card/50 border border-border rounded-3xl p-8 shadow-lg">
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
-              {/* User */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-2xl">👤</span>
-                </div>
-                <div className="text-sm font-semibold">사용자</div>
-              </div>
-
-              {/* Arrow */}
-              <div className="flex justify-center">
-                <svg className="w-8 h-8 text-primary transform rotate-90 md:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-
-              {/* AI Processing */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-2xl">🤖</span>
-                </div>
-                <div className="text-sm font-semibold">AI 분석</div>
-              </div>
-
-              {/* Arrow */}
-              <div className="flex justify-center">
-                <svg className="w-8 h-8 text-primary transform rotate-90 md:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-
-              {/* XRPL Blockchain */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-2xl">⚡</span>
-                </div>
-                <div className="text-sm font-semibold">XRPL</div>
-              </div>
-            </div>
-
-            <div className="mt-8 text-center">
-              <p className="text-muted-foreground text-sm max-w-2xl mx-auto">
-                사용자가 업로드한 데이터는 AI로 분석되어 가치가 평가되고,
-                XRPL 블록체인에 NFT로 발행되어 글로벌 마켓플레이스에서 거래됩니다
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

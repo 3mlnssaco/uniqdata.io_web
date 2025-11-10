@@ -90,7 +90,7 @@ export function Footer() {
             </div>
 
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <span>📧 contact@uniqdata.io</span>
+              <span>📧 support@sportique.biz</span>
             </div>
           </div>
         </div>

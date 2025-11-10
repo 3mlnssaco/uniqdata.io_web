@@ -29,7 +29,7 @@ export function CTA() {
                 무료로 시작하기 →
               </button>
               <button className="border-2 border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-foreground/10 hover:scale-105 transition-all duration-300">
-                플랫폼 둘러보기
+                소식 받기 📬
               </button>
             </div>
 
@@ -73,7 +73,7 @@ export function CTA() {
                 비즈니스 문의 및 기술 지원이 필요하신가요?
               </p>
               <p className="text-primary-foreground/90 font-semibold mt-4">
-                📧 문의: contact@uniqdata.io
+                📧 문의: support@sportique.biz
               </p>
             </div>
           </div>
